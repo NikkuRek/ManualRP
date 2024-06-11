@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+  background-image: url("http://imgfz.com/i/VuEjqs8.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Oxygen", Times, serif;
+  font-weight: bold;
+  background-color: rgb(25, 25, 25);
+}
+header .inicio {
+  padding: 5px 20px;
+  text-decoration: none;
+  color: rgb(25, 25, 25);
+  background-color: rgb(182, 20, 20);
+  border: 2px solid rgb(182, 20, 20);
+  border-radius: 7px;
+}
+header .inicio:hover {
+  background-color: rgb(235, 17, 17);
+  border-color: rgb(235, 17, 17);
+}
+header .cont-a {
+  display: flex;
+  align-items: center;
+  color: rgb(182, 20, 20);
+}
+header .cont-a .pop {
+  margin-right: 5px;
+}
+header .cont-a .pop #active {
+  display: none;
+}
+header .cont-a .pop #active:checked ~ .index {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+  left: 0;
+}
+header .cont-a .pop #active:checked ~ .index {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+  left: 0;
+}
+header .cont-a .pop .active label {
+  cursor: pointer;
+}
+header .cont-a .pop .active label:hover {
+  color: rgb(235, 17, 17);
+}
+header .cont-a .pop .index {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  position: absolute;
+  background: rgb(20, 20, 20);
+  height: 50rem;
+  left: -500px;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+header .cont-a .pop .index a {
+  padding: 5px 20px;
+  text-decoration: none;
+  color: rgb(182, 20, 20);
+  border-radius: 5px;
+}
+header .cont-a .pop .index a:hover {
+  color: rgb(235, 17, 17);
+}
+header .cont-a .pop .index label {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 22px;
+}
+header .cont-a .pop .index label {
+  margin-bottom: 10%;
+}
+header .cont-a .pop .index label:hover {
+  color: rgb(235, 17, 17);
+}
+
+.cont {
+  margin: 0 5%;
+  padding: 2% 5%;
+  color: rgb(182, 20, 20);
+  font-family: "Montserrat", Courier, monospace;
+  font-size: 1.3rem;
+}
+.cont p {
+  margin-bottom: 5%;
+}
+.cont h1 {
+  text-align: center;
+  font-family: "Bebas Neue", Times, serif;
+  border-bottom: 1.3px solid rgb(182, 20, 20);
+}
+.cont a {
+  display: block;
+  position: relative;
+  right: 0;
+  margin: 5% 20% 0 20%;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(25, 25, 25);
+  background-color: rgb(182, 20, 20);
+  border: 2px solid rgb(182, 20, 20);
+  border-radius: 7px;
+}
+.cont a:hover {
+  background-color: rgb(235, 17, 17);
+  border-color: rgb(235, 17, 17);
+}/*# sourceMappingURL=style.css.map */
